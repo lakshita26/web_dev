@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Flag</title>
+    <style>
+        .flag {
+      width: 900px;
+      height: 600px;
+      position: relative;
+      background-color: orange;
+
+    }
+
+    .flag > div {
+      background-color:whitesmoke;
+      height: 300px;
+      width: 100%;
+      position: absolute;
+      top: 150px;
+    }
+
+    .flag > div > div {
+      background-color: blue;
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+      position: relative;
+      left : 280px;
+    }
+
+    p {
+      font-size: 5rem;
+      color: white;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    .flag>div div p {
+      color: black;
+    }
+
+    .green{
+        background-color: green;
+        width: 900px;
+        height: 150px;
+        position: absolute;
+        top: 300px;
+        left:-280px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="flag">
+        <p>The Flag</p>
+        <div>
+            <div>
+                <p>of INDIA</p>
+                <div class="green">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
